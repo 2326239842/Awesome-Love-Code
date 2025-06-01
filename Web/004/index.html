@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>小孙同学</title>
+  <title>小田同学</title>
   <meta name="language" content="zh-CN">
-  <meta name="title" content="小孙同学">
+  <meta name="title" content="小田同学">
   <meta name="github" content="https://github.com/sun0225SUN/Awesome-Love-Code">
   <meta name="describe" content="收集不易，您的star是我坚持的动力，同时也欢迎各位PR哦! ">
   <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
@@ -81,13 +81,13 @@
             style="-webkit-animation: music_play_rotate 1s linear infinite;" />
           <!-- 您的浏览器不支持播放音乐 -->
           <audio id="audio_music" autoplay="autoplay" loop="loop">
-            <source type="audio/mpeg" />
+            <source src="video/1.mp3" type="audio/mpeg" /> <!-- 修改后的音频路径 -->
           </audio>
         </div>
         <div class="div_record_tips"></div>
         <div class="div_btn" id="div_record" onclick="record_switch()">
           <audio id="audio_record" loop="loop">
-            <source type="audio/mpeg" />
+            <source src="video/1.mp3" type="audio/mpeg" /> <!-- 修改后的录音路径 -->
           </audio>
         </div>
 
@@ -153,7 +153,7 @@
     var music_json = {
       music_select: "m_online",
       m_online_id: "7",
-      m_online_url: "images/1.mp3",
+      m_online_url: "video/1.mp3", // 修改后的音乐路径
       m_upload_name: "null",
       m_upload_url: "null",
     };
@@ -166,7 +166,7 @@
     };
     console.log(record_json);
 
-    var main_title = "我喜欢你❤️";
+    var main_title = "我知道我帅❤️";
 
     // console.log(main_title);
     if (main_title == "" || main_title == "null") {
@@ -281,21 +281,21 @@
     }
     var start_content = {
       chase_title:
-        "做我女朋友好不好<um style='color: #F44336;'>！</um>",
+        "我是不是个帅哥<um style='color: #F44336;'>！</um>",
       chase_text:
-        "承蒙你的出现，够我喜欢好多年，我希望，以后你能用我的名字拒绝所有人<um style='color: #F44336;'>💕</um>",
+        "我希望，以后你能告诉所有人我最帅<um style='color: #F44336;'>💕</um>",
       chase_benefit: [
-        "你是我拔掉氧气罐都想吻的人",
-        "你是我跑完8000米还想拥抱的人",
-        "你是我自罚三杯都不肯开口的秘密",
-        "你是我赴汤蹈火都不肯放下的执着",
-        "你是我电量只剩1%也想回信息的人",
-        "你是我穷极一生不想醒来的梦",
+  "我是你指尖不愿熄灭的烟火，即便耗尽氧气也要绽放温柔",
+  "我是你跑完万里征途后仍想拥抱的终点，以心跳为坐标等你停靠",
+  "我是你藏在琥珀里的秘密，自罚千杯也舍不得让岁月稀释半句",
+  "我是你穿越洪流时紧攥的锚点，赴汤蹈火亦要守成永恒的执着",
+  "我是你电量濒危时仍会回复的牵挂，用最后一格星光点亮你的昼夜",
+  "我是你穷极一生不愿苏醒的长梦，在时光褶皱里酿成永不褪色的诗行"
       ],
       bg_style: "bg_custom",
       bg_img: "images/2.jpg",
       img_bool: "img_true",
-      img_src: "images/1.gif",
+      img_src: "my images/t014ffcb081d51a3ef2.gif",
     }; //可能为null
     console.log(start_content);
     var start_id;
